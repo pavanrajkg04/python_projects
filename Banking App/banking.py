@@ -4,7 +4,6 @@ import sys
 import sqlite3
 random.seed()
 
-
 conn = sqlite3.connect('card.s3db')
 cur = conn.cursor()
 # cur.execute("DROP TABLE card")
